@@ -1,0 +1,98 @@
+html, body{
+  height: 100%;
+  padding: 0;
+}
+
+
+.logo{
+  font-size: 30px;
+}
+
+/* Görselli div */
+.gorselli{
+  height: 100%;
+  width: 100%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0;
+}
+
+#first-section{
+  height: auto;
+  padding: 0;
+}
+#inner1{
+  padding-top: 20%;
+  padding-bottom:15%;
+  background: rgba(0, 0, 0, 0.76);
+  height: 100%;
+}
+#inner1 h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+#break{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#gorsel1 {
+  background-image: url("../images/main.jpg");
+}
+
+#gorsel2 {
+  background-image: url("../images/deneme2.jpg");
+}
+
+#gorsel3{
+  background-image: url("../images/humans.jpg");
+}
+
+.orta-yazi{
+  font-size: 25px;
+}
+
+#inner2{
+  padding-top: 10%;
+  padding-bottom:15%;
+  background: rgba(0, 0, 0, 0.76);
+  height: 100%;
+}
+
+#inner2 h1{
+  margin-bottom: 40px;
+}
+
+.textbox{
+  width: 90%;
+}
+
+
+#inner3{
+  padding-top: 10%;
+  padding-bottom:10%;
+  background: rgba(0, 0, 0, 0.76);
+  height: 100%;
+}
+
+#form-div{
+  width: auto;
+  max-width: 350px;
+  padding-bottom: 50px;
+  padding-top: 40px;
+  border: solid 1.5px;
+  border-radius: 6px;
+}
+
+.myBtn{
+  margin-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,182 @@
+html, body{
+  height: 100%;
+  padding: 0;
+}
+
+.prof-card{
+  padding: 10px;
+  margin-left: 15px;
+  min-width: 400px;
+  margin-right: 10px;
+}
+
+.hov:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.myspan{
+  font-size: 18px;
+}
+
+ul li{
+  list-style: none;
+}
+
+#myButtons{
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align:  center;
+  padding: 0;
+}
+
+#myButtons li{
+  margin-bottom: 10px;
+}
+
+.prof-img{
+  width: 90px;
+  height: 75px;
+  background-color: lightblue;
+  margin-bottom: 15px;
+  background-image: center;
+}
+
+.my-col{
+  max-width: 500px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.myLine{
+  width: 50%;
+  min-width: 200px;
+  height: 3px;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.my-btn{
+  border: none;
+  color: white;
+  border-color: blue;
+  border-bottom: 2px solid #65cae6;
+  padding: 10px;
+  margin-bottom: 5px;
+  outline: none;
+}
+
+/* GRID */
+#streamGrid{
+  padding: 0;
+}
+
+.mycard{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 350px;
+  margin-top: 0 !important;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.mycard-head{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  background-color: #FFF;
+}
+
+.card-head-row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.prof-img{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-bottom: 0;
+  background-color: gray;
+}
+
+.username{
+  line-height: 40px;
+  margin: 0;
+  font-size: 15px;
+  padding: 0;
+}
+
+.btn-follow{
+  width: 65px;
+  height: 30px;
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.mycard-body{
+  background: #fff;
+}
+
+.card-ending{
+  width: 100%;
+  padding-left: 10px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #fff;
+  border-top: 1px solid;
+  border-color: gray;
+}
+
+.content-img{
+  background-color: lightblue;
+  max-height: 400px;
+  width: 100%;
+}
+
+.inner-body{
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mycard p{
+  font-size: 18px;
+  text-align: justify;
+  font-weight: lighter;
+  word-wrap:break-word;
+}
+
+.mycard h4{
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.btn-like{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-like:hover{
+  color: red;
+}

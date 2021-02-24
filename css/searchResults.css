@@ -1,0 +1,166 @@
+html, body{
+  width: 100%;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+#navbar{
+  padding-left: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.searchBox{
+  width: 375px;
+  margin-right: 25px;
+}
+
+/* GRID */
+#streamGrid{
+  padding: 0;
+}
+
+.space{
+  width: 100%;
+  height: 30px;
+}
+
+.mycard{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 350px;
+  margin-top: 0 !important;
+}
+
+.mycard-head{
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  background-color: #FFF;
+}
+
+.mycard-head:hover{
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  cursor: pointer;
+}
+
+.card-head-row{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.prof-img{
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  background-color: gray;
+}
+
+.username{
+  line-height: 40px;
+  margin: 0;
+  font-size: 15px;
+}
+
+.btn-follow{
+  width: 65px;
+  height: 30px;
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  padding: 0;
+  text-align: center;
+}
+
+.mycard-body{
+  background: #fff;
+}
+
+.card-ending{
+  width: 100%;
+  padding-left: 10px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #fff;
+  border-top: 1px solid;
+  border-color: gray;
+}
+
+.content-img{
+  background-color: lightblue;
+  max-height: 400px;
+  width: 100%;
+}
+
+.inner-body{
+  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.mycard p{
+  font-size: 18px;
+  text-align: justify;
+  font-weight: lighter;
+  word-wrap:break-word;
+}
+
+.mycard h4{
+  margin-bottom: 4px;
+  margin-top: 0px;
+}
+
+.btn-like{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-like:hover{
+  color: red;
+}
+
+/* USERS */
+.userCards{
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-left: 20px; padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.userCard{
+  height: 100%;
+  margin-right: 10px;
+  background-color: #FFF;
+  padding: 8px;
+  min-width: 275px;
+  margin-bottom: 8px;
+}
+
+.userCard:hover{
+  background-color: black;
+  color: white;
+}
+
+.userCard h3, h4{
+  padding: 0;
+}
+
+.us-img{
+  height: 80px;
+  width: 80px;
+  margin-right: 10px;
+}
